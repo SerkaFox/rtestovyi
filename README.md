@@ -1,6 +1,6 @@
-# Pagina Nueva
+# Pagina Nueva de Hoy
 
-Todo creando con mis manos
+Todo creando con mis manos y pies
 
 ## Capturas de pantalla
 
@@ -10,7 +10,7 @@ Todo creando con mis manos
 
 ![ChatGPT_Image_31_._2025_._09_40_06.png](screenshots/ChatGPT_Image_31_._2025_._09_40_06.png)
 
-![Administracion_asistida.png](screenshots/Administracion_asistida.png)
+![output-onlinepngtools.png](screenshots/output-onlinepngtools.png)
 
 ---
 
