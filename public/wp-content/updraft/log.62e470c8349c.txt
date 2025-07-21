@@ -1,0 +1,1200 @@
+0000.001 (0) Opened log file at time: Mon, 21 Jul 2025 07:05:34 +0000 on http://noelia.local
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.27 (cgi-fcgi, Windows NT DESKTOP-LUBQ3C8 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.35 (max packet size=16777216) WPLANG: es_ES Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.8M | 16M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 147804 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.016 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.187 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1752836793, seconds_ago=244741)
+0000.195 (0) Set semaphore last lock (fd) time to 2025-07-21 07:05:34
+0000.201 (0) Semaphore lock (fd) complete
+0000.215 (0) Backup run: resumption=0, nonce=62e470c8349c, file_nonce=62e470c8349c begun at=1753081534 (0s ago), job type=backup
+0000.221 (0) Scheduling a resumption (1) after 600 seconds (1753082134) in case this run gets aborted
+0000.288 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2829, C:\Users\Usuario\Local Sites\noelia\app\public\wp-includes\formatting.php)
+0000.291 (0) Checking if we have a zip executable available
+0000.297 (0) Creation of backups of directories: beginning
+0000.306 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.454 (0) Total entities for the zip file: 2669 directories, 13603 files (0 skipped as non-modified), 232.9 MB
+0005.468 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.629 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 100 files added (on-disk size: 477.6 KB)
+0005.661 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 200 files added (on-disk size: 477.6 KB)
+0005.697 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 300 files added (on-disk size: 477.6 KB)
+0005.735 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 400 files added (on-disk size: 477.6 KB)
+0005.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.7 MB, 13603 files batched, 416 (417) added so far); re-opening (prior size: 477.6 KB)
+0017.470 (0) A useful amount of data was added after this amount of zip processing: 12.1 s (normalised: 11.8 s, rate: 2174 KB/s)
+0017.570 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 500 files added (on-disk size: 5805.3 KB)
+0017.635 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 600 files added (on-disk size: 5805.3 KB)
+0017.693 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 700 files added (on-disk size: 5805.3 KB)
+0017.760 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 800 files added (on-disk size: 5805.3 KB)
+0017.814 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 900 files added (on-disk size: 5805.3 KB)
+0017.832 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 13603 files batched, 512 (929) added so far); re-opening (prior size: 5805.3 KB)
+0030.356 (0) A useful amount of data was added after this amount of zip processing: 13 s (normalised: 12.8 s, rate: 1995 KB/s)
+0030.407 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1000 files added (on-disk size: 13311.1 KB)
+0030.442 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1100 files added (on-disk size: 13311.1 KB)
+0030.475 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1200 files added (on-disk size: 13311.1 KB)
+0030.508 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1300 files added (on-disk size: 13311.1 KB)
+0030.547 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1400 files added (on-disk size: 13311.1 KB)
+0030.581 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1500 files added (on-disk size: 13311.1 KB)
+0030.616 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1600 files added (on-disk size: 13311.1 KB)
+0030.650 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1700 files added (on-disk size: 13311.1 KB)
+0030.685 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1800 files added (on-disk size: 13311.1 KB)
+0030.718 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 1900 files added (on-disk size: 13311.1 KB)
+0030.732 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.8 MB, 13603 files batched, 1001 (1930) added so far); re-opening (prior size: 13311.1 KB)
+0052.574 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2000 files added (on-disk size: 15033 KB)
+0052.610 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2100 files added (on-disk size: 15033 KB)
+0052.642 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2200 files added (on-disk size: 15033 KB)
+0052.673 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2300 files added (on-disk size: 15033 KB)
+0052.707 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2400 files added (on-disk size: 15033 KB)
+0052.740 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2500 files added (on-disk size: 15033 KB)
+0052.775 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2600 files added (on-disk size: 15033 KB)
+0052.808 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2700 files added (on-disk size: 15033 KB)
+0052.842 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2800 files added (on-disk size: 15033 KB)
+0052.879 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 2900 files added (on-disk size: 15033 KB)
+0052.893 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.7 MB, 13603 files batched, 1001 (2931) added so far); re-opening (prior size: 15033 KB)
+0073.610 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3000 files added (on-disk size: 18608.3 KB)
+0073.642 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3100 files added (on-disk size: 18608.3 KB)
+0073.674 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3200 files added (on-disk size: 18608.3 KB)
+0073.708 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3300 files added (on-disk size: 18608.3 KB)
+0073.739 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3400 files added (on-disk size: 18608.3 KB)
+0073.771 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3500 files added (on-disk size: 18608.3 KB)
+0073.804 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3600 files added (on-disk size: 18608.3 KB)
+0073.840 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3700 files added (on-disk size: 18608.3 KB)
+0073.873 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3800 files added (on-disk size: 18608.3 KB)
+0073.908 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 3900 files added (on-disk size: 18608.3 KB)
+0073.921 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10 MB, 13603 files batched, 1001 (3932) added so far); re-opening (prior size: 18608.3 KB)
+0094.996 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4000 files added (on-disk size: 21562.6 KB)
+0095.028 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4100 files added (on-disk size: 21562.6 KB)
+0095.061 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4200 files added (on-disk size: 21562.6 KB)
+0095.094 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4300 files added (on-disk size: 21562.6 KB)
+0095.128 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4400 files added (on-disk size: 21562.6 KB)
+0095.159 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4500 files added (on-disk size: 21562.6 KB)
+0095.194 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4600 files added (on-disk size: 21562.6 KB)
+0095.229 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4700 files added (on-disk size: 21562.6 KB)
+0095.263 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4800 files added (on-disk size: 21562.6 KB)
+0095.295 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 4900 files added (on-disk size: 21562.6 KB)
+0095.308 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.5 MB, 13603 files batched, 1001 (4933) added so far); re-opening (prior size: 21562.6 KB)
+0113.460 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5000 files added (on-disk size: 27059.1 KB)
+0113.492 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5100 files added (on-disk size: 27059.1 KB)
+0113.526 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5200 files added (on-disk size: 27059.1 KB)
+0113.558 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5300 files added (on-disk size: 27059.1 KB)
+0113.593 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5400 files added (on-disk size: 27059.1 KB)
+0113.625 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5500 files added (on-disk size: 27059.1 KB)
+0113.658 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5600 files added (on-disk size: 27059.1 KB)
+0113.690 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5700 files added (on-disk size: 27059.1 KB)
+0113.724 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5800 files added (on-disk size: 27059.1 KB)
+0113.756 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 5900 files added (on-disk size: 27059.1 KB)
+0113.770 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.9 MB, 13603 files batched, 1001 (5934) added so far); re-opening (prior size: 27059.1 KB)
+0133.159 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6000 files added (on-disk size: 34514.9 KB)
+0133.193 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6100 files added (on-disk size: 34514.9 KB)
+0133.224 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6200 files added (on-disk size: 34514.9 KB)
+0133.258 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6300 files added (on-disk size: 34514.9 KB)
+0133.289 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6400 files added (on-disk size: 34514.9 KB)
+0133.323 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6500 files added (on-disk size: 34514.9 KB)
+0133.354 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6600 files added (on-disk size: 34514.9 KB)
+0133.388 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6700 files added (on-disk size: 34514.9 KB)
+0133.420 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6800 files added (on-disk size: 34514.9 KB)
+0133.455 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 6900 files added (on-disk size: 34514.9 KB)
+0133.469 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.1 MB, 13603 files batched, 1001 (6935) added so far); re-opening (prior size: 34514.9 KB)
+0155.803 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7000 files added (on-disk size: 45220.8 KB)
+0155.835 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7100 files added (on-disk size: 45220.8 KB)
+0155.869 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7200 files added (on-disk size: 45220.8 KB)
+0155.900 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7300 files added (on-disk size: 45220.8 KB)
+0155.934 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7400 files added (on-disk size: 45220.8 KB)
+0155.967 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7500 files added (on-disk size: 45220.8 KB)
+0155.990 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.6 MB, 13603 files batched, 625 (7560) added so far); re-opening (prior size: 45220.8 KB)
+0166.422 (0) A useful amount of data was added after this amount of zip processing: 11 s (normalised: 10.8 s, rate: 2380 KB/s)
+0166.502 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7600 files added (on-disk size: 53657.3 KB)
+0166.540 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7700 files added (on-disk size: 53657.3 KB)
+0166.575 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7800 files added (on-disk size: 53657.3 KB)
+0166.609 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 7900 files added (on-disk size: 53657.3 KB)
+0166.642 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8000 files added (on-disk size: 53657.3 KB)
+0166.675 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8100 files added (on-disk size: 53657.3 KB)
+0166.708 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8200 files added (on-disk size: 53657.3 KB)
+0166.741 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8300 files added (on-disk size: 53657.3 KB)
+0166.767 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 13603 files batched, 815 (8375) added so far); re-opening (prior size: 53657.3 KB)
+0184.161 (0) A useful amount of data was added after this amount of zip processing: 17.8 s (normalised: 17.8 s, rate: 1440.7 KB/s)
+0184.239 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8400 files added (on-disk size: 61087.3 KB)
+0184.273 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8500 files added (on-disk size: 61087.3 KB)
+0184.305 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8600 files added (on-disk size: 61087.3 KB)
+0184.340 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8700 files added (on-disk size: 61087.3 KB)
+0184.371 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8800 files added (on-disk size: 61087.3 KB)
+0184.405 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 8900 files added (on-disk size: 61087.3 KB)
+0184.437 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9000 files added (on-disk size: 61087.3 KB)
+0184.472 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9100 files added (on-disk size: 61087.3 KB)
+0184.505 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9200 files added (on-disk size: 61087.3 KB)
+0184.538 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9300 files added (on-disk size: 61087.3 KB)
+0184.562 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.6 MB, 13603 files batched, 1001 (9376) added so far); re-opening (prior size: 61087.3 KB)
+0205.743 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9400 files added (on-disk size: 64554.3 KB)
+0205.775 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9500 files added (on-disk size: 64554.3 KB)
+0205.809 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9600 files added (on-disk size: 64554.3 KB)
+0205.840 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9700 files added (on-disk size: 64554.3 KB)
+0205.876 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9800 files added (on-disk size: 64554.3 KB)
+0205.908 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 9900 files added (on-disk size: 64554.3 KB)
+0205.942 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10000 files added (on-disk size: 64554.3 KB)
+0205.974 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10100 files added (on-disk size: 64554.3 KB)
+0206.011 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10200 files added (on-disk size: 64554.3 KB)
+0206.043 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10300 files added (on-disk size: 64554.3 KB)
+0206.075 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.7 MB, 13603 files batched, 1001 (10377) added so far); re-opening (prior size: 64554.3 KB)
+0221.659 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10400 files added (on-disk size: 71451.3 KB)
+0221.693 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10500 files added (on-disk size: 71451.3 KB)
+0221.725 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10600 files added (on-disk size: 71451.3 KB)
+0221.764 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10700 files added (on-disk size: 71451.3 KB)
+0221.798 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10800 files added (on-disk size: 71451.3 KB)
+0221.831 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 10900 files added (on-disk size: 71451.3 KB)
+0221.866 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11000 files added (on-disk size: 71451.3 KB)
+0221.898 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11100 files added (on-disk size: 71451.3 KB)
+0221.931 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11200 files added (on-disk size: 71451.3 KB)
+0221.968 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11300 files added (on-disk size: 71451.3 KB)
+0221.994 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.8 MB, 13603 files batched, 1001 (11378) added so far); re-opening (prior size: 71451.3 KB)
+0253.885 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11400 files added (on-disk size: 73100.1 KB)
+0253.920 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11500 files added (on-disk size: 73100.1 KB)
+0253.957 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11600 files added (on-disk size: 73100.1 KB)
+0253.993 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11700 files added (on-disk size: 73100.1 KB)
+0254.038 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11800 files added (on-disk size: 73100.1 KB)
+0254.124 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 11900 files added (on-disk size: 73100.1 KB)
+0254.214 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12000 files added (on-disk size: 73100.1 KB)
+0254.444 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12100 files added (on-disk size: 73100.1 KB)
+0254.751 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12200 files added (on-disk size: 73100.1 KB)
+0254.954 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12300 files added (on-disk size: 73100.1 KB)
+0255.120 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.5 MB, 13603 files batched, 1001 (12379) added so far); re-opening (prior size: 73100.1 KB)
+0297.472 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12400 files added (on-disk size: 74008.3 KB)
+0297.524 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12500 files added (on-disk size: 74008.3 KB)
+0297.570 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12600 files added (on-disk size: 74008.3 KB)
+0297.769 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12700 files added (on-disk size: 74008.3 KB)
+0297.813 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12800 files added (on-disk size: 74008.3 KB)
+0297.862 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 12900 files added (on-disk size: 74008.3 KB)
+0297.914 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13000 files added (on-disk size: 74008.3 KB)
+0297.961 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13100 files added (on-disk size: 74008.3 KB)
+0298.013 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13200 files added (on-disk size: 74008.3 KB)
+0298.063 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13300 files added (on-disk size: 74008.3 KB)
+0298.113 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.1 MB, 13603 files batched, 1001 (13380) added so far); re-opening (prior size: 74008.3 KB)
+0329.192 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13400 files added (on-disk size: 75350.5 KB)
+0329.225 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13500 files added (on-disk size: 75350.5 KB)
+0329.256 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.tmp: 13600 files added (on-disk size: 75350.5 KB)
+0336.051 (0) Creating zip file manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.list-temp.tmp)
+0336.101 (0) Successfully created zip file manifest (size: 1240401)
+0336.754 (0) Created plugins zip (0) - 75606.8 KB in 336.4 s (224.7 KB/s) (sha1: e027e3b225591e45804c494a40959275415501bd, sha256: bdbdcd0849ac98f32c50b8505940cd38f72823ce15ec113d506444a9018d8abf)
+0336.773 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0336.775 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca9b71c21b52d384b315ad745a77f156)
+0339.784 (0) Google Drive: quota usage: used=770.1 MB, total=102400 MB, available=101629.9 MB
+0339.787 (0) Google Drive: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rOyGi132xkS1L-a6mCv7taLpIYDXOakR)
+0342.236 (0) Googledrive chunked upload: 1.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.9 / 24)
+0344.964 (0) Googledrive chunked upload: 4.1 % uploaded (3145728)
+0347.755 (0) Googledrive chunked upload: 6.8 % uploaded (5242880)
+0350.510 (0) Googledrive chunked upload: 9.5 % uploaded (7340032)
+0353.283 (0) Googledrive chunked upload: 12.2 % uploaded (9437184)
+0356.148 (0) Googledrive chunked upload: 14.9 % uploaded (11534336)
+0358.819 (0) Googledrive chunked upload: 17.6 % uploaded (13631488)
+0361.542 (0) Googledrive chunked upload: 20.3 % uploaded (15728640)
+0364.371 (0) Googledrive chunked upload: 23 % uploaded (17825792)
+0367.219 (0) Googledrive chunked upload: 25.7 % uploaded (19922944)
+0369.989 (0) Googledrive chunked upload: 28.4 % uploaded (22020096)
+0372.635 (0) Googledrive chunked upload: 31.2 % uploaded (24117248)
+0375.401 (0) Googledrive chunked upload: 33.9 % uploaded (26214400)
+0378.173 (0) Googledrive chunked upload: 36.6 % uploaded (28311552)
+0380.984 (0) Googledrive chunked upload: 39.3 % uploaded (30408704)
+0383.745 (0) Googledrive chunked upload: 42 % uploaded (32505856)
+0386.505 (0) Googledrive chunked upload: 44.7 % uploaded (34603008)
+0389.356 (0) Googledrive chunked upload: 47.4 % uploaded (36700160)
+0392.075 (0) Googledrive chunked upload: 50.1 % uploaded (38797312)
+0394.761 (0) Googledrive chunked upload: 52.8 % uploaded (40894464)
+0397.452 (0) Googledrive chunked upload: 55.5 % uploaded (42991616)
+0400.237 (0) Googledrive chunked upload: 58.2 % uploaded (45088768)
+0402.874 (0) Googledrive chunked upload: 60.9 % uploaded (47185920)
+0405.611 (0) Googledrive chunked upload: 63.7 % uploaded (49283072)
+0408.244 (0) Googledrive chunked upload: 66.4 % uploaded (51380224)
+0411.055 (0) Googledrive chunked upload: 69.1 % uploaded (53477376)
+0413.700 (0) Googledrive chunked upload: 71.8 % uploaded (55574528)
+0416.304 (0) Googledrive chunked upload: 74.5 % uploaded (57671680)
+0418.988 (0) Googledrive chunked upload: 77.2 % uploaded (59768832)
+0421.600 (0) Googledrive chunked upload: 79.9 % uploaded (61865984)
+0424.272 (0) Googledrive chunked upload: 82.6 % uploaded (63963136)
+0426.994 (0) Googledrive chunked upload: 85.3 % uploaded (66060288)
+0429.503 (0) Googledrive chunked upload: 88 % uploaded (68157440 - increasing chunk size to 4096 KB - memory usage: 17.9 / 24)
+0434.301 (0) Googledrive chunked upload: 93.5 % uploaded (72351744)
+0438.908 (0) Googledrive chunked upload: 98.9 % uploaded (76546048)
+0441.924 (0) Googledrive chunked upload: 100 % uploaded (76546048)
+0441.933 (0) Google Drive: OK: Archive backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip uploaded in 102.14 seconds
+0441.937 (0) Recording as successfully uploaded: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip
+0441.952 (0) Deleting local file: backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip: OK
+0441.985 (0) Beginning creation of dump of themes (split every: 400 MB)
+0442.335 (0) Total entities for the zip file: 179 directories, 1014 files (0 skipped as non-modified), 21.7 MB
+0442.368 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0442.401 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0442.435 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0442.467 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0442.501 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0442.533 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0442.568 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0442.600 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0442.634 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0442.666 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0442.669 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.6 MB, 1014 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0469.739 (0) Creating zip file manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.list-temp.tmp)
+0469.746 (0) Successfully created zip file manifest (size: 71326)
+0469.882 (0) Created themes zip (0) - 14941.5 KB in 27.9 s (535.7 KB/s) (sha1: 60b6ae268cf7dedccff98354abc6ab80d2031947, sha256: 22a86615c53d1c2477eea7a53b7ca684873c3b96613941d2908753bf5e4b22f0)
+0469.891 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0469.893 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca9b71c21b52d384b315ad745a77f156)
+0470.876 (0) Google Drive: quota usage: used=843.9 MB, total=102400 MB, available=101556.1 MB
+0470.881 (0) Google Drive: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip: Attempting to upload to Google Drive (into folder id: 1rOyGi132xkS1L-a6mCv7taLpIYDXOakR)
+0473.460 (0) Googledrive chunked upload: 6.9 % uploaded (1048576)
+0475.026 (0) Googledrive chunked upload: 13.7 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 16 / 22)
+0477.781 (0) Googledrive chunked upload: 27.4 % uploaded (4194304)
+0480.452 (0) Googledrive chunked upload: 41.1 % uploaded (6291456)
+0483.143 (0) Googledrive chunked upload: 54.8 % uploaded (8388608)
+0485.870 (0) Googledrive chunked upload: 68.5 % uploaded (10485760)
+0488.560 (0) Googledrive chunked upload: 82.2 % uploaded (12582912)
+0491.232 (0) Googledrive chunked upload: 95.9 % uploaded (14680064)
+0493.678 (0) Googledrive chunked upload: 100 % uploaded (14680064)
+0493.687 (0) Google Drive: OK: Archive backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip uploaded in 22.8 seconds
+0493.689 (0) Recording as successfully uploaded: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip
+0493.742 (0) Deleting local file: backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip: OK
+0493.754 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0493.756 (0) Looking for candidates to backup in: C:\Users\Usuario\Local Sites\noelia\app\public/wp-content/uploads
+0493.759 (0) finding files: 2020: adding to list (1)
+0493.761 (0) finding files: 2022: adding to list (2)
+0493.763 (0) finding files: 2024: adding to list (3)
+0493.765 (0) finding files: 2025: adding to list (4)
+0493.767 (0) finding files: ai-builder: adding to list (5)
+0493.769 (0) finding files: ast-block-templates-json: adding to list (6)
+0493.771 (0) finding files: astra-sites: adding to list (7)
+0493.773 (0) finding files: elementor: adding to list (8)
+0493.775 (0) finding files: uag-plugin: adding to list (9)
+0493.777 (0) finding files: wpforms: adding to list (10)
+0493.779 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0494.474 (0) Total entities for the zip file: 30 directories, 1538 files (0 skipped as non-modified), 135.6 MB
+0494.506 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0494.533 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 1538 files batched, 182 (182) added so far); re-opening (prior size: 0 KB)
+0494.774 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18688.3 KB/s)
+0494.780 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3869750499725, normalised_time=1.3698443661055, max_time=494.77643299103, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0494.791 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 200 files added (on-disk size: 25951.6 KB)
+0494.822 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 300 files added (on-disk size: 25951.6 KB)
+0494.854 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 400 files added (on-disk size: 25951.6 KB)
+0494.887 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 500 files added (on-disk size: 25951.6 KB)
+0494.918 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 600 files added (on-disk size: 25951.6 KB)
+0494.951 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 700 files added (on-disk size: 25951.6 KB)
+0495.430 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 800 files added (on-disk size: 25951.6 KB)
+0495.460 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 900 files added (on-disk size: 25951.6 KB)
+0495.492 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 1000 files added (on-disk size: 25951.6 KB)
+0495.523 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 1100 files added (on-disk size: 25951.6 KB)
+0495.551 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (84.7 MB, 1538 files batched, 1001 (1183) added so far); re-opening (prior size: 25951.6 KB)
+0503.716 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 1200 files added (on-disk size: 112668.5 KB)
+0503.737 (0) Zip: setCompressionName failed on: uploads/2025/07/interior-de-una-inmobiliaria-sencilla-con-tres-puestos-de-trabajo-en-uno-de-ellos-debe-haber-un-agente-inmobiliario-atendiendo-a-dos-clientes-que-han-ido-a-comprra-una-csa-las-personas-deben-ser-espanolas.jpg
+0503.751 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 1300 files added (on-disk size: 112668.5 KB)
+0503.781 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 1400 files added (on-disk size: 112668.5 KB)
+0503.813 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.tmp: 1500 files added (on-disk size: 112668.5 KB)
+0513.257 (0) Creating zip file manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.list-temp.tmp)
+0513.267 (0) Successfully created zip file manifest (size: 117443)
+0514.353 (0) Created uploads zip (0) - 118068.8 KB in 20.6 s (5740.5 KB/s) (sha1: 22ccdea12d9ca4e24549b548af550b54c63dc481, sha256: cad1cf41dd49dc624ed958e7cd029b62127309495c2d832249ea3f06b8a1a846)
+0514.365 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0514.367 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca9b71c21b52d384b315ad745a77f156)
+0514.928 (0) Google Drive: quota usage: used=858.5 MB, total=102400 MB, available=101541.5 MB
+0514.931 (0) Google Drive: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip: Attempting to upload to Google Drive (into folder id: 1rOyGi132xkS1L-a6mCv7taLpIYDXOakR)
+0517.371 (0) Googledrive chunked upload: 0.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16 / 22)
+0520.176 (0) Googledrive chunked upload: 2.6 % uploaded (3145728)
+0522.996 (0) Googledrive chunked upload: 4.3 % uploaded (5242880)
+0525.714 (0) Googledrive chunked upload: 6.1 % uploaded (7340032)
+0528.290 (0) Googledrive chunked upload: 7.8 % uploaded (9437184)
+0530.952 (0) Googledrive chunked upload: 9.5 % uploaded (11534336)
+0533.665 (0) Googledrive chunked upload: 11.3 % uploaded (13631488)
+0536.219 (0) Googledrive chunked upload: 13 % uploaded (15728640)
+0538.932 (0) Googledrive chunked upload: 14.7 % uploaded (17825792)
+0541.549 (0) Googledrive chunked upload: 16.5 % uploaded (19922944)
+0544.276 (0) Googledrive chunked upload: 18.2 % uploaded (22020096)
+0546.942 (0) Googledrive chunked upload: 19.9 % uploaded (24117248)
+0549.670 (0) Googledrive chunked upload: 21.7 % uploaded (26214400)
+0552.302 (0) Googledrive chunked upload: 23.4 % uploaded (28311552)
+0555.066 (0) The scheduled resumption is within 45 seconds - will reschedule
+0555.072 (0) Rescheduling resumption 1: moving to 645 seconds from now (1753082734)
+0555.081 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 45 = 645
+0555.085 (0) Googledrive chunked upload: 25.2 % uploaded (30408704)
+0557.769 (0) Googledrive chunked upload: 26.9 % uploaded (32505856)
+0560.692 (0) Googledrive chunked upload: 28.6 % uploaded (34603008)
+0563.540 (0) Googledrive chunked upload: 30.4 % uploaded (36700160)
+0566.207 (0) Googledrive chunked upload: 32.1 % uploaded (38797312)
+0568.915 (0) Googledrive chunked upload: 33.8 % uploaded (40894464)
+0571.505 (0) Googledrive chunked upload: 35.6 % uploaded (42991616)
+0574.227 (0) Googledrive chunked upload: 37.3 % uploaded (45088768)
+0576.894 (0) Googledrive chunked upload: 39 % uploaded (47185920)
+0579.707 (0) Googledrive chunked upload: 40.8 % uploaded (49283072)
+0582.405 (0) Googledrive chunked upload: 42.5 % uploaded (51380224)
+0585.478 (0) Googledrive chunked upload: 44.2 % uploaded (53477376)
+0588.161 (0) Googledrive chunked upload: 46 % uploaded (55574528)
+0590.935 (0) Googledrive chunked upload: 47.7 % uploaded (57671680)
+0594.516 (0) Googledrive chunked upload: 49.4 % uploaded (59768832)
+0597.762 (0) Googledrive chunked upload: 51.2 % uploaded (61865984)
+0600.382 (0) Googledrive chunked upload: 52.9 % uploaded (63963136)
+0603.105 (0) Googledrive chunked upload: 54.6 % uploaded (66060288)
+0605.821 (0) Googledrive chunked upload: 56.4 % uploaded (68157440)
+0608.650 (0) Googledrive chunked upload: 58.1 % uploaded (70254592)
+0611.494 (0) Googledrive chunked upload: 59.8 % uploaded (72351744)
+0614.111 (0) Googledrive chunked upload: 61.6 % uploaded (74448896)
+0616.899 (0) The time we have been running (616.9) is approaching the resumption interval (645) - increasing resumption interval to 647
+0616.903 (0) Googledrive chunked upload: 63.3 % uploaded (76546048)
+0620.061 (0) The time we have been running (620) is approaching the resumption interval (647) - increasing resumption interval to 651
+0620.067 (0) Googledrive chunked upload: 65 % uploaded (78643200)
+0623.177 (0) The time we have been running (623.2) is approaching the resumption interval (651) - increasing resumption interval to 654
+0623.183 (0) Googledrive chunked upload: 66.8 % uploaded (80740352)
+0627.419 (0) The time we have been running (627.4) is approaching the resumption interval (654) - increasing resumption interval to 658
+0627.424 (0) Googledrive chunked upload: 68.5 % uploaded (82837504)
+0632.931 (0) The time we have been running (632.9) is approaching the resumption interval (658) - increasing resumption interval to 663
+0632.936 (0) Googledrive chunked upload: 70.3 % uploaded (84934656)
+0636.141 (0) The time we have been running (636.1) is approaching the resumption interval (663) - increasing resumption interval to 667
+0636.146 (0) Googledrive chunked upload: 72 % uploaded (87031808)
+0638.857 (0) The time we have been running (638.9) is approaching the resumption interval (667) - increasing resumption interval to 669
+0638.861 (0) Googledrive chunked upload: 73.7 % uploaded (89128960)
+0641.544 (0) The time we have been running (641.5) is approaching the resumption interval (669) - increasing resumption interval to 672
+0641.550 (0) Googledrive chunked upload: 75.5 % uploaded (91226112)
+0644.224 (0) The time we have been running (644.2) is approaching the resumption interval (672) - increasing resumption interval to 675
+0644.228 (0) Googledrive chunked upload: 77.2 % uploaded (93323264)
+0646.937 (0) The time we have been running (646.9) is approaching the resumption interval (675) - increasing resumption interval to 677
+0646.942 (0) Googledrive chunked upload: 78.9 % uploaded (95420416)
+0649.692 (0) The time we have been running (649.7) is approaching the resumption interval (677) - increasing resumption interval to 680
+0649.698 (0) Googledrive chunked upload: 80.7 % uploaded (97517568)
+0652.344 (0) The time we have been running (652.3) is approaching the resumption interval (680) - increasing resumption interval to 683
+0652.349 (0) Googledrive chunked upload: 82.4 % uploaded (99614720)
+0654.941 (0) The time we have been running (654.9) is approaching the resumption interval (683) - increasing resumption interval to 685
+0654.946 (0) Googledrive chunked upload: 84.1 % uploaded (101711872)
+0657.613 (0) The time we have been running (657.6) is approaching the resumption interval (685) - increasing resumption interval to 688
+0657.618 (0) Googledrive chunked upload: 85.9 % uploaded (103809024)
+0660.181 (0) The time we have been running (660.2) is approaching the resumption interval (688) - increasing resumption interval to 691
+0660.185 (0) Googledrive chunked upload: 87.6 % uploaded (105906176)
+0662.883 (0) The time we have been running (662.9) is approaching the resumption interval (691) - increasing resumption interval to 693
+0662.887 (0) Googledrive chunked upload: 89.3 % uploaded (108003328)
+0665.518 (0) The time we have been running (665.5) is approaching the resumption interval (693) - increasing resumption interval to 696
+0665.523 (0) Googledrive chunked upload: 91.1 % uploaded (110100480)
+0668.359 (0) The time we have been running (668.4) is approaching the resumption interval (696) - increasing resumption interval to 699
+0668.363 (0) Googledrive chunked upload: 92.8 % uploaded (112197632)
+0671.996 (0) The time we have been running (672) is approaching the resumption interval (699) - increasing resumption interval to 702
+0672.000 (0) Googledrive chunked upload: 94.5 % uploaded (114294784)
+0674.692 (0) The time we have been running (674.7) is approaching the resumption interval (702) - increasing resumption interval to 705
+0674.696 (0) Googledrive chunked upload: 96.3 % uploaded (116391936)
+0677.508 (0) The time we have been running (677.5) is approaching the resumption interval (705) - increasing resumption interval to 708
+0677.513 (0) Googledrive chunked upload: 98 % uploaded (118489088)
+0680.390 (0) The time we have been running (680.4) is approaching the resumption interval (708) - increasing resumption interval to 711
+0680.395 (0) Googledrive chunked upload: 99.7 % uploaded (120586240)
+0682.540 (0) The time we have been running (682.5) is approaching the resumption interval (711) - increasing resumption interval to 713
+0682.544 (0) Googledrive chunked upload: 100 % uploaded (120586240)
+0682.553 (0) Google Drive: OK: Archive backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip uploaded in 167.62 seconds
+0682.556 (0) Recording as successfully uploaded: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip
+0682.708 (0) Deleting local file: backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip: OK
+0682.720 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0682.722 (0) Does not exist: C:\Users\Usuario\Local Sites\noelia\app\public/wp-content/mu-plugins
+0682.724 (0) There are no mu-plugins to backup. Will not raise an error.
+0682.726 (0) mu-plugins: create_zip returned an error
+0682.730 (0) Beginning backup of other directories found in the content directory (index: 0)
+0682.732 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0682.780 (0) Looking for candidates to backup in: C:\Users\Usuario\Local Sites\noelia\app\public/wp-content
+0682.783 (0) finding files: index.php: adding to list (1)
+0682.785 (0) finding files: languages: adding to list (2)
+0682.787 (0) finding files: plugins: skipping: this is the plugins directory
+0682.789 (0) finding files: themes: skipping: this is the themes directory
+0682.791 (0) finding files: updraft: skipping: this is the updraft directory
+0682.793 (0) finding files: upgrade: skipping: excluded by options
+0682.795 (0) finding files: upgrade-temp-backup: adding to list (3)
+0682.797 (0) finding files: uploads: skipping: this is the uploads directory
+0682.955 (0) Total entities for the zip file: 4 directories, 245 files (0 skipped as non-modified), 8.7 MB
+0682.985 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0683.014 (0) Zip: backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0685.523 (0) The time we have been running (685.5) is approaching the resumption interval (713) - increasing resumption interval to 716
+0685.540 (0) Creating zip file manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip.list-temp.tmp)
+0685.545 (0) Successfully created zip file manifest (size: 18001)
+0685.588 (0) Created others zip (0) - 2560.7 KB in 2.8 s (920.2 KB/s) (sha1: ae1b3c3867d41450e17345afe162b94417400e8d, sha256: ddc834cb553a8ef9b544a322f4206b7e8799f35bb44429cb38c4b88d3b4408e4)
+0685.597 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0685.599 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca9b71c21b52d384b315ad745a77f156)
+0686.197 (0) Google Drive: quota usage: used=973.8 MB, total=102400 MB, available=101426.2 MB
+0686.200 (0) Google Drive: backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip: Attempting to upload to Google Drive (into folder id: 1rOyGi132xkS1L-a6mCv7taLpIYDXOakR)
+0688.864 (0) The time we have been running (688.9) is approaching the resumption interval (716) - increasing resumption interval to 719
+0688.869 (0) Googledrive chunked upload: 40 % uploaded (1048576)
+0690.468 (0) The time we have been running (690.5) is approaching the resumption interval (719) - increasing resumption interval to 721
+0690.473 (0) Googledrive chunked upload: 80 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 15.9 / 24)
+0692.978 (0) The time we have been running (693) is approaching the resumption interval (721) - increasing resumption interval to 723
+0692.982 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0692.991 (0) Google Drive: OK: Archive backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip uploaded in 6.79 seconds
+0692.994 (0) Recording as successfully uploaded: backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip
+0693.001 (0) Deleting local file: backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip: OK
+0693.016 (0) Saving backup status to database (elements: 8)
+0693.024 (0) Beginning creation of database dump (WordPress DB)
+0693.027 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0693.033 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0693.179 (0) Binary mysqldump: error (code: 2)
+0693.182 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0693.273 (0) Binary mysqldump: error (code: 2)
+0693.360 (0) Table wp_options: Total expected rows (via COUNT): 467
+0693.362 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.442 (0) Table wp_options: Rows added in this batch (next record: 10044): 463 (uncompressed bytes in this segment=2265335) in 0.09 seconds
+0693.457 (0) The time we have been running (693.4) is approaching the resumption interval (723) - increasing resumption interval to 724
+0693.468 (0) Table wp_options: finishing file(s) (2, 502.4 KB)
+0693.481 (0) Table wp_users: Total expected rows (via COUNT): 1
+0693.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.489 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1410) in 0.01 seconds
+0693.500 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0693.515 (0) Table wp_usermeta: Total expected rows (via COUNT): 35
+0693.517 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.568 (0) Table wp_usermeta: Rows added in this batch (next record: 37): 35 (uncompressed bytes in this segment=4259) in 0.06 seconds
+0693.582 (0) Table wp_usermeta: finishing file(s) (2, 2.1 KB)
+0693.598 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 152
+0693.600 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.607 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 259): 152 (uncompressed bytes in this segment=65577) in 0.02 seconds
+0693.623 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 4.3 KB)
+0693.634 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0693.639 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+0693.651 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0693.662 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0693.664 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.716 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=776) in 0.06 seconds
+0693.728 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0693.740 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 438
+0693.743 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.750 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 678): 438 (uncompressed bytes in this segment=38347) in 0.01 seconds
+0693.763 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 3.8 KB)
+0693.784 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0693.789 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.02 seconds
+0693.804 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0693.816 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0693.818 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0693.869 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2118) in 0.06 seconds
+0693.881 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0693.900 (0) Table wp_e_notes: Total expected rows (via COUNT): 0
+0693.911 (0) Table wp_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2049) in 0.02 seconds
+0694.003 (0) Table wp_e_notes: finishing file(s) (2, 0.8 KB)
+0694.048 (0) Table wp_e_notes_users_relations: Total expected rows (via COUNT): 0
+0694.054 (0) Table wp_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=871) in 0.04 seconds
+0694.068 (0) The time we have been running (694.1) is approaching the resumption interval (724) - increasing resumption interval to 725
+0694.128 (0) Table wp_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0694.183 (0) Table wp_links: Total expected rows (via COUNT): 0
+0694.186 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0694.221 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0694.368 (0) Table wp_postmeta: Total expected rows (approximate): 6152
+0694.459 (0) Table wp_postmeta: Rows added in this batch (next record: 13841): 5991 (uncompressed bytes in this segment=2699466) in 0.16 seconds
+0694.482 (0) Table wp_postmeta: finishing file(s) (2, 186.4 KB)
+0694.685 (0) Table wp_posts: Total expected rows (approximate): 1179
+0695.080 (0) Table wp_posts: Rows added in this batch (next record: 4162): 1399 (uncompressed bytes in this segment=12161077) in 0.58 seconds
+0695.101 (0) The time we have been running (695.1) is approaching the resumption interval (725) - increasing resumption interval to 726
+0695.116 (0) Table wp_posts: finishing file(s) (2, 1255 KB)
+0695.178 (0) Table wp_term_relationships: Total expected rows (approximate): 116
+0695.188 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 119 (uncompressed bytes in this segment=2630) in 0.01 seconds
+0695.205 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0695.224 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 92
+0695.227 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0695.240 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 134): 92 (uncompressed bytes in this segment=4204) in 0.02 seconds
+0695.259 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0695.286 (0) Table wp_termmeta: Total expected rows (via COUNT): 46
+0695.288 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0695.295 (0) Table wp_termmeta: Rows added in this batch (next record: 61): 46 (uncompressed bytes in this segment=3129) in 0.02 seconds
+0695.360 (0) Table wp_termmeta: finishing file(s) (2, 0.9 KB)
+0695.373 (0) Table wp_terms: Total expected rows (via COUNT): 92
+0695.375 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0695.381 (0) Table wp_terms: Rows added in this batch (next record: 134): 92 (uncompressed bytes in this segment=4205) in 0.01 seconds
+0695.396 (0) Table wp_terms: finishing file(s) (2, 1.7 KB)
+0695.419 (0) Table wp_amelia_appointments: Total expected rows (via COUNT): 0
+0695.425 (0) Table wp_amelia_appointments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1133) in 0.02 seconds
+0695.437 (0) Table wp_amelia_appointments: finishing file(s) (2, 0.5 KB)
+0695.452 (0) Table wp_amelia_cache: Total expected rows (via COUNT): 0
+0695.455 (0) Table wp_amelia_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=458) in 0.01 seconds
+0695.469 (0) Table wp_amelia_cache: finishing file(s) (2, 0.3 KB)
+0695.485 (0) Table wp_amelia_categories: Total expected rows (via COUNT): 0
+0695.488 (0) Table wp_amelia_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.01 seconds
+0695.523 (0) Table wp_amelia_categories: finishing file(s) (2, 0.4 KB)
+0695.541 (0) Table wp_amelia_coupons: Total expected rows (via COUNT): 0
+0695.544 (0) Table wp_amelia_coupons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=943) in 0.01 seconds
+0695.557 (0) Table wp_amelia_coupons: finishing file(s) (2, 0.5 KB)
+0695.572 (0) Table wp_amelia_coupons_to_events: Total expected rows (via COUNT): 0
+0695.575 (0) Table wp_amelia_coupons_to_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=504) in 0.01 seconds
+0695.588 (0) Table wp_amelia_coupons_to_events: finishing file(s) (2, 0.3 KB)
+0695.603 (0) Table wp_amelia_coupons_to_packages: Total expected rows (via COUNT): 0
+0695.606 (0) Table wp_amelia_coupons_to_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=518) in 0.01 seconds
+0695.619 (0) Table wp_amelia_coupons_to_packages: finishing file(s) (2, 0.3 KB)
+0695.633 (0) Table wp_amelia_coupons_to_services: Total expected rows (via COUNT): 0
+0695.636 (0) Table wp_amelia_coupons_to_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=518) in 0.01 seconds
+0695.648 (0) Table wp_amelia_coupons_to_services: finishing file(s) (2, 0.3 KB)
+0695.687 (0) Table wp_amelia_custom_fields: Total expected rows (via COUNT): 0
+0695.690 (0) Table wp_amelia_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=941) in 0.01 seconds
+0695.703 (0) Table wp_amelia_custom_fields: finishing file(s) (2, 0.5 KB)
+0695.719 (0) Table wp_amelia_custom_fields_events: Total expected rows (via COUNT): 0
+0695.722 (0) Table wp_amelia_custom_fields_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=527) in 0.01 seconds
+0695.735 (0) Table wp_amelia_custom_fields_events: finishing file(s) (2, 0.3 KB)
+0695.752 (0) Table wp_amelia_custom_fields_options: Total expected rows (via COUNT): 0
+0695.755 (0) Table wp_amelia_custom_fields_options: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=573) in 0.01 seconds
+0695.766 (0) Table wp_amelia_custom_fields_options: finishing file(s) (2, 0.3 KB)
+0695.782 (0) Table wp_amelia_custom_fields_services: Total expected rows (via COUNT): 0
+0695.785 (0) Table wp_amelia_custom_fields_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=541) in 0.01 seconds
+0695.798 (0) Table wp_amelia_custom_fields_services: finishing file(s) (2, 0.3 KB)
+0695.838 (0) Table wp_amelia_customer_bookings: Total expected rows (via COUNT): 0
+0695.841 (0) Table wp_amelia_customer_bookings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.01 seconds
+0695.855 (0) Table wp_amelia_customer_bookings: finishing file(s) (2, 0.5 KB)
+0695.874 (0) Table wp_amelia_customer_bookings_to_events_periods: Total expected rows (via COUNT): 0
+0695.877 (0) Table wp_amelia_customer_bookings_to_events_periods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=706) in 0.01 seconds
+0695.892 (0) Table wp_amelia_customer_bookings_to_events_periods: finishing file(s) (2, 0.3 KB)
+0696.065 (0) Table wp_amelia_customer_bookings_to_events_tickets: Total expected rows (via COUNT): 0
+0696.069 (0) Table wp_amelia_customer_bookings_to_events_tickets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.08 seconds
+0696.126 (0) The time we have been running (696.1) is approaching the resumption interval (726) - increasing resumption interval to 727
+0696.140 (0) Table wp_amelia_customer_bookings_to_events_tickets: finishing file(s) (2, 0.3 KB)
+0696.160 (0) Table wp_amelia_customer_bookings_to_extras: Total expected rows (via COUNT): 0
+0696.164 (0) Table wp_amelia_customer_bookings_to_extras: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.01 seconds
+0696.177 (0) Table wp_amelia_customer_bookings_to_extras: finishing file(s) (2, 0.4 KB)
+0696.193 (0) Table wp_amelia_events: Total expected rows (via COUNT): 0
+0696.197 (0) Table wp_amelia_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2287) in 0.01 seconds
+0696.211 (0) Table wp_amelia_events: finishing file(s) (2, 0.9 KB)
+0696.226 (0) Table wp_amelia_events_periods: Total expected rows (via COUNT): 0
+0696.229 (0) Table wp_amelia_events_periods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=839) in 0.01 seconds
+0696.243 (0) Table wp_amelia_events_periods: finishing file(s) (2, 0.4 KB)
+0696.333 (0) Table wp_amelia_events_tags: Total expected rows (via COUNT): 0
+0696.337 (0) Table wp_amelia_events_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.03 seconds
+0696.356 (0) Table wp_amelia_events_tags: finishing file(s) (2, 0.3 KB)
+0696.374 (0) Table wp_amelia_events_to_providers: Total expected rows (via COUNT): 0
+0696.377 (0) Table wp_amelia_events_to_providers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=520) in 0.01 seconds
+0696.392 (0) Table wp_amelia_events_to_providers: finishing file(s) (2, 0.3 KB)
+0696.407 (0) Table wp_amelia_events_to_tickets: Total expected rows (via COUNT): 0
+0696.410 (0) Table wp_amelia_events_to_tickets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.01 seconds
+0696.423 (0) Table wp_amelia_events_to_tickets: finishing file(s) (2, 0.4 KB)
+0696.438 (0) Table wp_amelia_extras: Total expected rows (via COUNT): 0
+0696.441 (0) Table wp_amelia_extras: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0696.499 (0) Table wp_amelia_extras: finishing file(s) (2, 0.4 KB)
+0696.513 (0) Table wp_amelia_galleries: Total expected rows (via COUNT): 0
+0696.517 (0) Table wp_amelia_galleries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=611) in 0.01 seconds
+0696.530 (0) Table wp_amelia_galleries: finishing file(s) (2, 0.4 KB)
+0696.546 (0) Table wp_amelia_locations: Total expected rows (via COUNT): 0
+0696.550 (0) Table wp_amelia_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=827) in 0.01 seconds
+0696.566 (0) Table wp_amelia_locations: finishing file(s) (2, 0.4 KB)
+0696.581 (0) Table wp_amelia_locations_views: Total expected rows (via COUNT): 0
+0696.585 (0) Table wp_amelia_locations_views: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.01 seconds
+0696.600 (0) Table wp_amelia_locations_views: finishing file(s) (2, 0.3 KB)
+0696.616 (0) Table wp_amelia_notifications: Total expected rows (via COUNT): 118
+0696.619 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0696.626 (0) Table wp_amelia_notifications: Rows added in this batch (next record: 118): 118 (uncompressed bytes in this segment=40569) in 0.02 seconds
+0696.687 (0) Table wp_amelia_notifications: finishing file(s) (2, 4 KB)
+0696.704 (0) Table wp_amelia_notifications_log: Total expected rows (via COUNT): 0
+0696.709 (0) Table wp_amelia_notifications_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.01 seconds
+0696.724 (0) Table wp_amelia_notifications_log: finishing file(s) (2, 0.4 KB)
+0696.739 (0) Table wp_amelia_notifications_sms_history: Total expected rows (via COUNT): 0
+0696.743 (0) Table wp_amelia_notifications_sms_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1047) in 0.01 seconds
+0696.757 (0) Table wp_amelia_notifications_sms_history: finishing file(s) (2, 0.5 KB)
+0696.772 (0) Table wp_amelia_notifications_to_entities: Total expected rows (via COUNT): 0
+0696.775 (0) Table wp_amelia_notifications_to_entities: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.01 seconds
+0696.789 (0) Table wp_amelia_notifications_to_entities: finishing file(s) (2, 0.3 KB)
+0696.806 (0) Table wp_amelia_packages: Total expected rows (via COUNT): 0
+0696.808 (0) Table wp_amelia_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1239) in 0.01 seconds
+0696.847 (0) Table wp_amelia_packages: finishing file(s) (2, 0.6 KB)
+0696.860 (0) Table wp_amelia_packages_customers_to_services: Total expected rows (via COUNT): 0
+0696.864 (0) Table wp_amelia_packages_customers_to_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.01 seconds
+0696.878 (0) Table wp_amelia_packages_customers_to_services: finishing file(s) (2, 0.3 KB)
+0696.924 (0) Table wp_amelia_packages_services_to_locations: Total expected rows (via COUNT): 0
+0696.927 (0) Table wp_amelia_packages_services_to_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.01 seconds
+0696.944 (0) Table wp_amelia_packages_services_to_locations: finishing file(s) (2, 0.3 KB)
+0696.962 (0) Table wp_amelia_packages_services_to_providers: Total expected rows (via COUNT): 0
+0696.967 (0) Table wp_amelia_packages_services_to_providers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=615) in 0.01 seconds
+0696.986 (0) Table wp_amelia_packages_services_to_providers: finishing file(s) (2, 0.3 KB)
+0697.004 (0) Table wp_amelia_packages_to_customers: Total expected rows (via COUNT): 0
+0697.008 (0) Table wp_amelia_packages_to_customers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=832) in 0.01 seconds
+0697.022 (0) The time we have been running (697) is approaching the resumption interval (727) - increasing resumption interval to 728
+0697.080 (0) Table wp_amelia_packages_to_customers: finishing file(s) (2, 0.4 KB)
+0697.098 (0) Table wp_amelia_packages_to_services: Total expected rows (via COUNT): 0
+0697.102 (0) Table wp_amelia_packages_to_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.01 seconds
+0697.116 (0) Table wp_amelia_packages_to_services: finishing file(s) (2, 0.4 KB)
+0697.132 (0) Table wp_amelia_payments: Total expected rows (via COUNT): 0
+0697.135 (0) Table wp_amelia_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1168) in 0.01 seconds
+0697.150 (0) Table wp_amelia_payments: finishing file(s) (2, 0.6 KB)
+0697.165 (0) Table wp_amelia_providers_to_daysoff: Total expected rows (via COUNT): 0
+0697.168 (0) Table wp_amelia_providers_to_daysoff: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=640) in 0.01 seconds
+0697.205 (0) Table wp_amelia_providers_to_daysoff: finishing file(s) (2, 0.4 KB)
+0697.221 (0) Table wp_amelia_providers_to_google_calendar: Total expected rows (via COUNT): 0
+0697.224 (0) Table wp_amelia_providers_to_google_calendar: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.01 seconds
+0697.239 (0) Table wp_amelia_providers_to_google_calendar: finishing file(s) (2, 0.3 KB)
+0697.256 (0) Table wp_amelia_providers_to_locations: Total expected rows (via COUNT): 0
+0697.259 (0) Table wp_amelia_providers_to_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0697.272 (0) Table wp_amelia_providers_to_locations: finishing file(s) (2, 0.3 KB)
+0697.287 (0) Table wp_amelia_providers_to_outlook_calendar: Total expected rows (via COUNT): 0
+0697.289 (0) Table wp_amelia_providers_to_outlook_calendar: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.01 seconds
+0697.348 (0) Table wp_amelia_providers_to_outlook_calendar: finishing file(s) (2, 0.3 KB)
+0697.364 (0) Table wp_amelia_providers_to_periods: Total expected rows (via COUNT): 0
+0697.367 (0) Table wp_amelia_providers_to_periods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=612) in 0.01 seconds
+0697.381 (0) Table wp_amelia_providers_to_periods: finishing file(s) (2, 0.3 KB)
+0697.398 (0) Table wp_amelia_providers_to_periods_location: Total expected rows (via COUNT): 0
+0697.401 (0) Table wp_amelia_providers_to_periods_location: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=605) in 0.01 seconds
+0697.493 (0) Table wp_amelia_providers_to_periods_location: finishing file(s) (2, 0.3 KB)
+0697.511 (0) Table wp_amelia_providers_to_periods_services: Total expected rows (via COUNT): 0
+0697.515 (0) Table wp_amelia_providers_to_periods_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=604) in 0.01 seconds
+0697.528 (0) Table wp_amelia_providers_to_periods_services: finishing file(s) (2, 0.3 KB)
+0697.550 (0) Table wp_amelia_providers_to_services: Total expected rows (via COUNT): 0
+0697.554 (0) Table wp_amelia_providers_to_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=665) in 0.01 seconds
+0697.571 (0) Table wp_amelia_providers_to_services: finishing file(s) (2, 0.4 KB)
+0697.589 (0) Table wp_amelia_providers_to_specialdays: Total expected rows (via COUNT): 0
+0697.592 (0) Table wp_amelia_providers_to_specialdays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=600) in 0.01 seconds
+0697.606 (0) Table wp_amelia_providers_to_specialdays: finishing file(s) (2, 0.3 KB)
+0697.623 (0) Table wp_amelia_providers_to_specialdays_periods: Total expected rows (via COUNT): 0
+0697.627 (0) Table wp_amelia_providers_to_specialdays_periods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=687) in 0.01 seconds
+0697.687 (0) Table wp_amelia_providers_to_specialdays_periods: finishing file(s) (2, 0.3 KB)
+0697.701 (0) Table wp_amelia_providers_to_specialdays_periods_location: Total expected rows (via COUNT): 0
+0697.704 (0) Table wp_amelia_providers_to_specialdays_periods_location: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0697.718 (0) Table wp_amelia_providers_to_specialdays_periods_location: finishing file(s) (2, 0.3 KB)
+0697.732 (0) Table wp_amelia_providers_to_specialdays_periods_services: Total expected rows (via COUNT): 0
+0697.736 (0) Table wp_amelia_providers_to_specialdays_periods_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=676) in 0.01 seconds
+0697.749 (0) Table wp_amelia_providers_to_specialdays_periods_services: finishing file(s) (2, 0.3 KB)
+0697.763 (0) Table wp_amelia_providers_to_timeouts: Total expected rows (via COUNT): 0
+0697.767 (0) Table wp_amelia_providers_to_timeouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.01 seconds
+0697.781 (0) Table wp_amelia_providers_to_timeouts: finishing file(s) (2, 0.3 KB)
+0697.795 (0) Table wp_amelia_providers_to_weekdays: Total expected rows (via COUNT): 0
+0697.800 (0) Table wp_amelia_providers_to_weekdays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=613) in 0.01 seconds
+0697.858 (0) Table wp_amelia_providers_to_weekdays: finishing file(s) (2, 0.3 KB)
+0697.872 (0) Table wp_amelia_providers_views: Total expected rows (via COUNT): 0
+0697.875 (0) Table wp_amelia_providers_views: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.01 seconds
+0697.940 (0) Table wp_amelia_providers_views: finishing file(s) (2, 0.3 KB)
+0697.955 (0) Table wp_amelia_resources: Total expected rows (via COUNT): 0
+0697.957 (0) Table wp_amelia_resources: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=653) in 0.01 seconds
+0697.971 (0) Table wp_amelia_resources: finishing file(s) (2, 0.4 KB)
+0697.988 (0) Table wp_amelia_resources_to_entities: Total expected rows (via COUNT): 0
+0697.991 (0) Table wp_amelia_resources_to_entities: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=612) in 0.01 seconds
+0698.009 (0) The time we have been running (698) is approaching the resumption interval (728) - increasing resumption interval to 729
+0698.039 (0) Table wp_amelia_resources_to_entities: finishing file(s) (2, 0.3 KB)
+0698.056 (0) Table wp_amelia_services: Total expected rows (via COUNT): 0
+0698.059 (0) Table wp_amelia_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1749) in 0.01 seconds
+0698.073 (0) Table wp_amelia_services: finishing file(s) (2, 0.7 KB)
+0698.133 (0) Table wp_amelia_services_views: Total expected rows (via COUNT): 0
+0698.137 (0) Table wp_amelia_services_views: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.01 seconds
+0698.152 (0) Table wp_amelia_services_views: finishing file(s) (2, 0.3 KB)
+0698.168 (0) Table wp_amelia_taxes: Total expected rows (via COUNT): 0
+0698.171 (0) Table wp_amelia_taxes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+0698.186 (0) Table wp_amelia_taxes: finishing file(s) (2, 0.4 KB)
+0698.202 (0) Table wp_amelia_taxes_to_entities: Total expected rows (via COUNT): 0
+0698.205 (0) Table wp_amelia_taxes_to_entities: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=569) in 0.01 seconds
+0698.219 (0) Table wp_amelia_taxes_to_entities: finishing file(s) (2, 0.3 KB)
+0698.236 (0) Table wp_amelia_users: Total expected rows (via COUNT): 0
+0698.240 (0) Table wp_amelia_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1412) in 0.01 seconds
+0698.299 (0) Table wp_amelia_users: finishing file(s) (2, 0.6 KB)
+0698.316 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0698.319 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.01 seconds
+0698.333 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0698.350 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0698.353 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2254) in 0.01 seconds
+0698.368 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0698.386 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0698.389 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1243) in 0.01 seconds
+0698.405 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0698.449 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0698.453 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.04 seconds
+0698.471 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0698.487 (0) Table wp_estatik_fb_fields: Total expected rows (via COUNT): 5
+0698.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0698.498 (0) Table wp_estatik_fb_fields: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2598) in 0.02 seconds
+0698.514 (0) Table wp_estatik_fb_fields: finishing file(s) (2, 0.8 KB)
+0698.556 (0) Table wp_estatik_fb_sections: Total expected rows (via COUNT): 0
+0698.562 (0) Table wp_estatik_fb_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=869) in 0.01 seconds
+0698.576 (0) Table wp_estatik_fb_sections: finishing file(s) (2, 0.4 KB)
+0698.597 (0) Table wp_latepoint_activities: Total expected rows (via COUNT): 2
+0698.600 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0698.607 (0) Table wp_latepoint_activities: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1357) in 0.02 seconds
+0698.668 (0) Table wp_latepoint_activities: finishing file(s) (2, 0.5 KB)
+0698.686 (0) Table wp_latepoint_agent_meta: Total expected rows (via COUNT): 0
+0698.693 (0) Table wp_latepoint_agent_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=769) in 0.02 seconds
+0698.707 (0) Table wp_latepoint_agent_meta: finishing file(s) (2, 0.4 KB)
+0698.724 (0) Table wp_latepoint_agents: Total expected rows (via COUNT): 1
+0698.726 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0698.733 (0) Table wp_latepoint_agents: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1742) in 0.01 seconds
+0698.746 (0) Table wp_latepoint_agents: finishing file(s) (2, 0.7 KB)
+0698.763 (0) Table wp_latepoint_agents_services: Total expected rows (via COUNT): 0
+0698.769 (0) Table wp_latepoint_agents_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=919) in 0.01 seconds
+0698.783 (0) Table wp_latepoint_agents_services: finishing file(s) (2, 0.4 KB)
+0698.844 (0) Table wp_latepoint_blocked_periods: Total expected rows (via COUNT): 0
+0698.847 (0) Table wp_latepoint_blocked_periods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1238) in 0.01 seconds
+0698.860 (0) Table wp_latepoint_blocked_periods: finishing file(s) (2, 0.5 KB)
+0698.875 (0) Table wp_latepoint_booking_meta: Total expected rows (via COUNT): 0
+0698.886 (0) Table wp_latepoint_booking_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.02 seconds
+0698.925 (0) Table wp_latepoint_booking_meta: finishing file(s) (2, 0.4 KB)
+0698.941 (0) Table wp_latepoint_bookings: Total expected rows (via COUNT): 0
+0698.947 (0) Table wp_latepoint_bookings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1774) in 0.01 seconds
+0698.960 (0) Table wp_latepoint_bookings: finishing file(s) (2, 0.6 KB)
+0698.975 (0) Table wp_latepoint_bundle_meta: Total expected rows (via COUNT): 0
+0698.981 (0) Table wp_latepoint_bundle_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0698.993 (0) Table wp_latepoint_bundle_meta: finishing file(s) (2, 0.4 KB)
+0699.054 (0) Table wp_latepoint_bundles: Total expected rows (via COUNT): 0
+0699.059 (0) Table wp_latepoint_bundles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=982) in 0.01 seconds
+0699.071 (0) The time we have been running (699.1) is approaching the resumption interval (729) - increasing resumption interval to 730
+0699.085 (0) Table wp_latepoint_bundles: finishing file(s) (2, 0.5 KB)
+0699.098 (0) Table wp_latepoint_bundles_services: Total expected rows (via COUNT): 0
+0699.102 (0) Table wp_latepoint_bundles_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=845) in 0.01 seconds
+0699.114 (0) Table wp_latepoint_bundles_services: finishing file(s) (2, 0.4 KB)
+0699.130 (0) Table wp_latepoint_cart_items: Total expected rows (via COUNT): 0
+0699.134 (0) Table wp_latepoint_cart_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.01 seconds
+0699.147 (0) Table wp_latepoint_cart_items: finishing file(s) (2, 0.4 KB)
+0699.161 (0) Table wp_latepoint_cart_meta: Total expected rows (via COUNT): 0
+0699.190 (0) Table wp_latepoint_cart_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.03 seconds
+0699.204 (0) Table wp_latepoint_cart_meta: finishing file(s) (2, 0.4 KB)
+0699.219 (0) Table wp_latepoint_carts: Total expected rows (via COUNT): 0
+0699.225 (0) Table wp_latepoint_carts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=842) in 0.01 seconds
+0699.239 (0) Table wp_latepoint_carts: finishing file(s) (2, 0.4 KB)
+0699.255 (0) Table wp_latepoint_custom_prices: Total expected rows (via COUNT): 0
+0699.258 (0) Table wp_latepoint_custom_prices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.01 seconds
+0699.271 (0) Table wp_latepoint_custom_prices: finishing file(s) (2, 0.5 KB)
+0699.286 (0) Table wp_latepoint_customer_meta: Total expected rows (via COUNT): 0
+0699.292 (0) Table wp_latepoint_customer_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=787) in 0.01 seconds
+0699.307 (0) Table wp_latepoint_customer_meta: finishing file(s) (2, 0.4 KB)
+0699.344 (0) Table wp_latepoint_customers: Total expected rows (via COUNT): 0
+0699.350 (0) Table wp_latepoint_customers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1590) in 0.01 seconds
+0699.361 (0) Table wp_latepoint_customers: finishing file(s) (2, 0.5 KB)
+0699.378 (0) Table wp_latepoint_location_categories: Total expected rows (via COUNT): 0
+0699.382 (0) Table wp_latepoint_location_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=914) in 0.01 seconds
+0699.394 (0) Table wp_latepoint_location_categories: finishing file(s) (2, 0.4 KB)
+0699.411 (0) Table wp_latepoint_locations: Total expected rows (via COUNT): 1
+0699.414 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0699.420 (0) Table wp_latepoint_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1019) in 0.01 seconds
+0699.434 (0) Table wp_latepoint_locations: finishing file(s) (2, 0.5 KB)
+0699.453 (0) Table wp_latepoint_order_intents: Total expected rows (via COUNT): 0
+0699.459 (0) Table wp_latepoint_order_intents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1585) in 0.01 seconds
+0699.518 (0) Table wp_latepoint_order_intents: finishing file(s) (2, 0.6 KB)
+0699.535 (0) Table wp_latepoint_order_invoices: Total expected rows (via COUNT): 0
+0699.538 (0) Table wp_latepoint_order_invoices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1120) in 0.01 seconds
+0699.554 (0) Table wp_latepoint_order_invoices: finishing file(s) (2, 0.5 KB)
+0699.575 (0) Table wp_latepoint_order_items: Total expected rows (via COUNT): 0
+0699.579 (0) Table wp_latepoint_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=979) in 0.01 seconds
+0699.595 (0) Table wp_latepoint_order_items: finishing file(s) (2, 0.4 KB)
+0699.616 (0) Table wp_latepoint_order_meta: Total expected rows (via COUNT): 0
+0699.623 (0) Table wp_latepoint_order_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=769) in 0.01 seconds
+0699.641 (0) Table wp_latepoint_order_meta: finishing file(s) (2, 0.4 KB)
+0699.662 (0) Table wp_latepoint_orders: Total expected rows (via COUNT): 0
+0699.672 (0) Table wp_latepoint_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1560) in 0.02 seconds
+0699.822 (0) Table wp_latepoint_orders: finishing file(s) (2, 0.6 KB)
+0699.842 (0) Table wp_latepoint_payment_requests: Total expected rows (via COUNT): 0
+0699.848 (0) Table wp_latepoint_payment_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=865) in 0.01 seconds
+0699.870 (0) Table wp_latepoint_payment_requests: finishing file(s) (2, 0.4 KB)
+0699.894 (0) Table wp_latepoint_process_jobs: Total expected rows (via COUNT): 0
+0699.899 (0) Table wp_latepoint_process_jobs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=969) in 0.01 seconds
+0699.915 (0) Table wp_latepoint_process_jobs: finishing file(s) (2, 0.4 KB)
+0699.936 (0) Table wp_latepoint_processes: Total expected rows (via COUNT): 1
+0699.938 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0699.945 (0) Table wp_latepoint_processes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6248) in 0.02 seconds
+0699.965 (0) Table wp_latepoint_processes: finishing file(s) (2, 1.6 KB)
+0699.984 (0) Table wp_latepoint_recurrences: Total expected rows (via COUNT): 0
+0699.991 (0) Table wp_latepoint_recurrences: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.01 seconds
+0700.013 (0) The time we have been running (700) is approaching the resumption interval (730) - increasing resumption interval to 731
+0700.020 (0) Table wp_latepoint_recurrences: finishing file(s) (2, 0.4 KB)
+0700.039 (0) Table wp_latepoint_service_categories: Total expected rows (via COUNT): 0
+0700.042 (0) Table wp_latepoint_service_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=908) in 0.01 seconds
+0700.057 (0) Table wp_latepoint_service_categories: finishing file(s) (2, 0.4 KB)
+0700.075 (0) Table wp_latepoint_service_meta: Total expected rows (via COUNT): 0
+0700.082 (0) Table wp_latepoint_service_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0700.097 (0) Table wp_latepoint_service_meta: finishing file(s) (2, 0.4 KB)
+0700.119 (0) Table wp_latepoint_services: Total expected rows (via COUNT): 0
+0700.126 (0) Table wp_latepoint_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1950) in 0.02 seconds
+0700.141 (0) Table wp_latepoint_services: finishing file(s) (2, 0.6 KB)
+0700.169 (0) Table wp_latepoint_sessions: Total expected rows (via COUNT): 0
+0700.172 (0) Table wp_latepoint_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.02 seconds
+0700.189 (0) Table wp_latepoint_sessions: finishing file(s) (2, 0.4 KB)
+0700.229 (0) Table wp_latepoint_settings: Total expected rows (via COUNT): 9
+0700.238 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.255 (0) Table wp_latepoint_settings: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=4455) in 0.06 seconds
+0700.276 (0) Table wp_latepoint_settings: finishing file(s) (2, 1.4 KB)
+0700.291 (0) Table wp_latepoint_step_settings: Total expected rows (via COUNT): 0
+0700.298 (0) Table wp_latepoint_step_settings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=794) in 0.01 seconds
+0700.312 (0) Table wp_latepoint_step_settings: finishing file(s) (2, 0.4 KB)
+0700.329 (0) Table wp_latepoint_steps: Total expected rows (via COUNT): 0
+0700.333 (0) Table wp_latepoint_steps: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1013) in 0.01 seconds
+0700.348 (0) Table wp_latepoint_steps: finishing file(s) (2, 0.4 KB)
+0700.366 (0) Table wp_latepoint_transaction_intents: Total expected rows (via COUNT): 0
+0700.369 (0) Table wp_latepoint_transaction_intents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1167) in 0.01 seconds
+0700.383 (0) Table wp_latepoint_transaction_intents: finishing file(s) (2, 0.5 KB)
+0700.401 (0) Table wp_latepoint_transaction_refunds: Total expected rows (via COUNT): 0
+0700.404 (0) Table wp_latepoint_transaction_refunds: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=717) in 0.01 seconds
+0700.417 (0) Table wp_latepoint_transaction_refunds: finishing file(s) (2, 0.4 KB)
+0700.432 (0) Table wp_latepoint_transactions: Total expected rows (via COUNT): 0
+0700.435 (0) Table wp_latepoint_transactions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1287) in 0.01 seconds
+0700.448 (0) Table wp_latepoint_transactions: finishing file(s) (2, 0.5 KB)
+0700.464 (0) Table wp_latepoint_work_periods: Total expected rows (via COUNT): 7
+0700.467 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.472 (0) Table wp_latepoint_work_periods: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1714) in 0.01 seconds
+0700.486 (0) Table wp_latepoint_work_periods: finishing file(s) (2, 0.6 KB)
+0700.507 (0) Table wp_nf3_action_meta: Total expected rows (via COUNT): 78
+0700.510 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.519 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=7979) in 0.02 seconds
+0700.540 (0) Table wp_nf3_action_meta: finishing file(s) (2, 1.4 KB)
+0700.572 (0) Table wp_nf3_actions: Total expected rows (via COUNT): 4
+0700.575 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.583 (0) Table wp_nf3_actions: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1179) in 0.03 seconds
+0700.602 (0) Table wp_nf3_actions: finishing file(s) (2, 0.5 KB)
+0700.623 (0) Table wp_nf3_chunks: Total expected rows (via COUNT): 0
+0700.629 (0) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=508) in 0.02 seconds
+0700.649 (0) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0700.670 (0) Table wp_nf3_field_meta: Total expected rows (via COUNT): 260
+0700.673 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.683 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 260): 260 (uncompressed bytes in this segment=18169) in 0.02 seconds
+0700.701 (0) Table wp_nf3_field_meta: finishing file(s) (2, 2.6 KB)
+0700.724 (0) Table wp_nf3_fields: Total expected rows (via COUNT): 4
+0700.727 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.736 (0) Table wp_nf3_fields: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1541) in 0.02 seconds
+0700.758 (0) Table wp_nf3_fields: finishing file(s) (2, 0.6 KB)
+0700.780 (0) Table wp_nf3_form_meta: Total expected rows (via COUNT): 98
+0700.783 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.790 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 98): 98 (uncompressed bytes in this segment=8749) in 0.02 seconds
+0700.809 (0) Table wp_nf3_form_meta: finishing file(s) (2, 1.5 KB)
+0700.834 (0) Table wp_nf3_forms: Total expected rows (via COUNT): 1
+0700.838 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0700.845 (0) Table wp_nf3_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1144) in 0.02 seconds
+0700.865 (0) Table wp_nf3_forms: finishing file(s) (2, 0.5 KB)
+0700.889 (0) Table wp_nf3_object_meta: Total expected rows (via COUNT): 0
+0700.903 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.03 seconds
+0700.922 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0700.943 (0) Table wp_nf3_objects: Total expected rows (via COUNT): 0
+0700.952 (0) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.02 seconds
+0700.971 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0700.993 (0) Table wp_nf3_relationships: Total expected rows (via COUNT): 0
+0700.996 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0701.013 (0) The time we have been running (701) is approaching the resumption interval (731) - increasing resumption interval to 732
+0701.028 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0701.050 (0) Table wp_nf3_upgrades: Total expected rows (via COUNT): 1
+0701.054 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0701.061 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=19105) in 0.02 seconds
+0701.078 (0) Table wp_nf3_upgrades: finishing file(s) (2, 2.6 KB)
+0701.096 (0) Table wp_srfm_entries: Total expected rows (via COUNT): 0
+0701.103 (0) Table wp_srfm_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1206) in 0.01 seconds
+0701.121 (0) Table wp_srfm_entries: finishing file(s) (2, 0.5 KB)
+0701.141 (0) Table wp_suremails_email_log: Total expected rows (via COUNT): 0
+0701.143 (0) Table wp_suremails_email_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.01 seconds
+0701.160 (0) Table wp_suremails_email_log: finishing file(s) (2, 0.5 KB)
+0701.179 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0701.183 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.01 seconds
+0701.201 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0701.220 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0701.225 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.02 seconds
+0701.243 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0701.261 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0701.268 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.01 seconds
+0701.280 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0701.298 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 6
+0701.301 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0701.307 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 62): 6 (uncompressed bytes in this segment=1113) in 0.02 seconds
+0701.325 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0701.328 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\Usuario\Local Sites\noelia\app\public/wp-content/updraft/backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz (line 1923, C:\Users\Usuario\Local Sites\noelia\app\public\wp-content\plugins\updraftplus\backup.php)
+0701.334 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_options.table.tmpr10045.gz (1/136/fopen): adding to final database dump
+0701.353 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_options.table.gz (2/136/fopen): adding to final database dump
+0701.355 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_users.table.tmpr2.gz (3/136/fopen): adding to final database dump
+0701.358 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_users.table.gz (4/136/fopen): adding to final database dump
+0701.360 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_usermeta.table.tmpr38.gz (5/136/fopen): adding to final database dump
+0701.362 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_usermeta.table.gz (6/136/fopen): adding to final database dump
+0701.365 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_actions.table.tmpr260.gz (7/136/fopen): adding to final database dump
+0701.368 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_actions.table.gz (8/136/fopen): adding to final database dump
+0701.371 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/136/fopen): adding to final database dump
+0701.373 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_claims.table.gz (10/136/fopen): adding to final database dump
+0701.375 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_groups.table.tmpr6.gz (11/136/fopen): adding to final database dump
+0701.378 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_groups.table.gz (12/136/fopen): adding to final database dump
+0701.380 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_logs.table.tmpr679.gz (13/136/fopen): adding to final database dump
+0701.385 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_actionscheduler_logs.table.gz (14/136/fopen): adding to final database dump
+0701.389 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_commentmeta.table.tmpr0.gz (15/136/fopen): adding to final database dump
+0701.392 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_commentmeta.table.gz (16/136/fopen): adding to final database dump
+0701.394 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_comments.table.tmpr2.gz (17/136/fopen): adding to final database dump
+0701.398 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_comments.table.gz (18/136/fopen): adding to final database dump
+0701.400 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_notes.table.tmpr0.gz (19/136/fopen): adding to final database dump
+0701.403 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_notes.table.gz (20/136/fopen): adding to final database dump
+0701.406 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_notes_users_relations.table.tmpr0.gz (21/136/fopen): adding to final database dump
+0701.408 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_notes_users_relations.table.gz (22/136/fopen): adding to final database dump
+0701.411 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_links.table.tmpr0.gz (23/136/fopen): adding to final database dump
+0701.414 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_links.table.gz (24/136/fopen): adding to final database dump
+0701.417 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_postmeta.table.tmpr13842.gz (25/136/fopen): adding to final database dump
+0701.424 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_postmeta.table.gz (26/136/fopen): adding to final database dump
+0701.426 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_posts.table.tmpr4163.gz (27/136/fopen): adding to final database dump
+0701.469 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_posts.table.gz (28/136/fopen): adding to final database dump
+0701.473 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_term_relationships.table.tmpr100001.gz (29/136/fopen): adding to final database dump
+0701.479 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_term_relationships.table.gz (30/136/fopen): adding to final database dump
+0701.482 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_term_taxonomy.table.tmpr135.gz (31/136/fopen): adding to final database dump
+0701.486 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_term_taxonomy.table.gz (32/136/fopen): adding to final database dump
+0701.490 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_termmeta.table.tmpr62.gz (33/136/fopen): adding to final database dump
+0701.493 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_termmeta.table.gz (34/136/fopen): adding to final database dump
+0701.496 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_terms.table.tmpr135.gz (35/136/fopen): adding to final database dump
+0701.500 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_terms.table.gz (36/136/fopen): adding to final database dump
+0701.503 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_appointments.table.tmpr0.gz (37/136/fopen): adding to final database dump
+0701.505 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_appointments.table.gz (38/136/fopen): adding to final database dump
+0701.508 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_cache.table.tmpr0.gz (39/136/fopen): adding to final database dump
+0701.511 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_cache.table.gz (40/136/fopen): adding to final database dump
+0701.514 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_categories.table.tmpr0.gz (41/136/fopen): adding to final database dump
+0701.517 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_categories.table.gz (42/136/fopen): adding to final database dump
+0701.520 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons.table.tmpr0.gz (43/136/fopen): adding to final database dump
+0701.522 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons.table.gz (44/136/fopen): adding to final database dump
+0701.525 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons_to_events.table.tmpr0.gz (45/136/fopen): adding to final database dump
+0701.528 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons_to_events.table.gz (46/136/fopen): adding to final database dump
+0701.531 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons_to_packages.table.tmpr0.gz (47/136/fopen): adding to final database dump
+0701.535 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons_to_packages.table.gz (48/136/fopen): adding to final database dump
+0701.538 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons_to_services.table.tmpr0.gz (49/136/fopen): adding to final database dump
+0701.540 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_coupons_to_services.table.gz (50/136/fopen): adding to final database dump
+0701.543 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields.table.tmpr0.gz (51/136/fopen): adding to final database dump
+0701.546 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields.table.gz (52/136/fopen): adding to final database dump
+0701.550 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields_events.table.tmpr0.gz (53/136/fopen): adding to final database dump
+0701.553 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields_events.table.gz (54/136/fopen): adding to final database dump
+0701.555 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields_options.table.tmpr0.gz (55/136/fopen): adding to final database dump
+0701.558 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields_options.table.gz (56/136/fopen): adding to final database dump
+0701.561 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields_services.table.tmpr0.gz (57/136/fopen): adding to final database dump
+0701.564 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_custom_fields_services.table.gz (58/136/fopen): adding to final database dump
+0701.567 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings.table.tmpr0.gz (59/136/fopen): adding to final database dump
+0701.569 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings.table.gz (60/136/fopen): adding to final database dump
+0701.572 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings_to_events_periods.table.tmpr0.gz (61/136/fopen): adding to final database dump
+0701.575 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings_to_events_periods.table.gz (62/136/fopen): adding to final database dump
+0701.578 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings_to_events_tickets.table.tmpr0.gz (63/136/fopen): adding to final database dump
+0701.582 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings_to_events_tickets.table.gz (64/136/fopen): adding to final database dump
+0701.585 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings_to_extras.table.tmpr0.gz (65/136/fopen): adding to final database dump
+0701.589 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_customer_bookings_to_extras.table.gz (66/136/fopen): adding to final database dump
+0701.591 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events.table.tmpr0.gz (67/136/fopen): adding to final database dump
+0701.593 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events.table.gz (68/136/fopen): adding to final database dump
+0701.595 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_periods.table.tmpr0.gz (69/136/fopen): adding to final database dump
+0701.601 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_periods.table.gz (70/136/fopen): adding to final database dump
+0701.605 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_tags.table.tmpr0.gz (71/136/fopen): adding to final database dump
+0701.609 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_tags.table.gz (72/136/fopen): adding to final database dump
+0701.611 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_to_providers.table.tmpr0.gz (73/136/fopen): adding to final database dump
+0701.615 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_to_providers.table.gz (74/136/fopen): adding to final database dump
+0701.619 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_to_tickets.table.tmpr0.gz (75/136/fopen): adding to final database dump
+0701.622 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_events_to_tickets.table.gz (76/136/fopen): adding to final database dump
+0701.625 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_extras.table.tmpr0.gz (77/136/fopen): adding to final database dump
+0701.628 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_extras.table.gz (78/136/fopen): adding to final database dump
+0701.632 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_galleries.table.tmpr0.gz (79/136/fopen): adding to final database dump
+0701.636 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_galleries.table.gz (80/136/fopen): adding to final database dump
+0701.639 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_locations.table.tmpr0.gz (81/136/fopen): adding to final database dump
+0701.641 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_locations.table.gz (82/136/fopen): adding to final database dump
+0701.644 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_locations_views.table.tmpr0.gz (83/136/fopen): adding to final database dump
+0701.647 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_locations_views.table.gz (84/136/fopen): adding to final database dump
+0701.651 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications.table.tmpr119.gz (85/136/fopen): adding to final database dump
+0701.654 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications.table.gz (86/136/fopen): adding to final database dump
+0701.657 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications_log.table.tmpr0.gz (87/136/fopen): adding to final database dump
+0701.660 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications_log.table.gz (88/136/fopen): adding to final database dump
+0701.664 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications_sms_history.table.tmpr0.gz (89/136/fopen): adding to final database dump
+0701.667 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications_sms_history.table.gz (90/136/fopen): adding to final database dump
+0701.670 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications_to_entities.table.tmpr0.gz (91/136/fopen): adding to final database dump
+0701.674 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_notifications_to_entities.table.gz (92/136/fopen): adding to final database dump
+0701.677 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages.table.tmpr0.gz (93/136/fopen): adding to final database dump
+0701.682 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages.table.gz (94/136/fopen): adding to final database dump
+0701.685 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_customers_to_services.table.tmpr0.gz (95/136/fopen): adding to final database dump
+0701.688 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_customers_to_services.table.gz (96/136/fopen): adding to final database dump
+0701.691 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_services_to_locations.table.tmpr0.gz (97/136/fopen): adding to final database dump
+0701.695 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_services_to_locations.table.gz (98/136/fopen): adding to final database dump
+0701.699 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_services_to_providers.table.tmpr0.gz (99/136/fopen): adding to final database dump
+0701.706 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_services_to_providers.table.gz (100/136/fopen): adding to final database dump
+0701.709 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_to_customers.table.tmpr0.gz (101/136/fopen): adding to final database dump
+0701.713 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_to_customers.table.gz (102/136/fopen): adding to final database dump
+0701.716 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_to_services.table.tmpr0.gz (103/136/fopen): adding to final database dump
+0701.719 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_packages_to_services.table.gz (104/136/fopen): adding to final database dump
+0701.722 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_payments.table.tmpr0.gz (105/136/fopen): adding to final database dump
+0701.725 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_payments.table.gz (106/136/fopen): adding to final database dump
+0701.728 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_daysoff.table.tmpr0.gz (107/136/fopen): adding to final database dump
+0701.732 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_daysoff.table.gz (108/136/fopen): adding to final database dump
+0701.736 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_google_calendar.table.tmpr0.gz (109/136/fopen): adding to final database dump
+0701.739 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_google_calendar.table.gz (110/136/fopen): adding to final database dump
+0701.742 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_locations.table.tmpr0.gz (111/136/fopen): adding to final database dump
+0701.747 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_locations.table.gz (112/136/fopen): adding to final database dump
+0701.750 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_outlook_calendar.table.tmpr0.gz (113/136/fopen): adding to final database dump
+0701.754 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_outlook_calendar.table.gz (114/136/fopen): adding to final database dump
+0701.757 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_periods.table.tmpr0.gz (115/136/fopen): adding to final database dump
+0701.760 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_periods.table.gz (116/136/fopen): adding to final database dump
+0701.765 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_periods_location.table.tmpr0.gz (117/136/fopen): adding to final database dump
+0701.768 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_periods_location.table.gz (118/136/fopen): adding to final database dump
+0701.771 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_periods_services.table.tmpr0.gz (119/136/fopen): adding to final database dump
+0701.774 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_periods_services.table.gz (120/136/fopen): adding to final database dump
+0701.777 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_services.table.tmpr0.gz (121/136/fopen): adding to final database dump
+0701.781 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_services.table.gz (122/136/fopen): adding to final database dump
+0701.784 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays.table.tmpr0.gz (123/136/fopen): adding to final database dump
+0701.787 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays.table.gz (124/136/fopen): adding to final database dump
+0701.789 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays_periods.table.tmpr0.gz (125/136/fopen): adding to final database dump
+0701.792 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays_periods.table.gz (126/136/fopen): adding to final database dump
+0701.796 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays_periods_location.table.tmpr0.gz (127/136/fopen): adding to final database dump
+0701.800 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays_periods_location.table.gz (128/136/fopen): adding to final database dump
+0701.803 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays_periods_services.table.tmpr0.gz (129/136/fopen): adding to final database dump
+0701.807 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_specialdays_periods_services.table.gz (130/136/fopen): adding to final database dump
+0701.810 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_timeouts.table.tmpr0.gz (131/136/fopen): adding to final database dump
+0701.813 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_timeouts.table.gz (132/136/fopen): adding to final database dump
+0701.818 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_weekdays.table.tmpr0.gz (133/136/fopen): adding to final database dump
+0701.821 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_to_weekdays.table.gz (134/136/fopen): adding to final database dump
+0701.824 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_views.table.tmpr0.gz (135/136/fopen): adding to final database dump
+0701.828 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_providers_views.table.gz (136/136/fopen): adding to final database dump
+0701.833 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_resources.table.tmpr0.gz (137/136/fopen): adding to final database dump
+0701.836 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_resources.table.gz (138/136/fopen): adding to final database dump
+0701.839 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_resources_to_entities.table.tmpr0.gz (139/136/fopen): adding to final database dump
+0701.842 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_resources_to_entities.table.gz (140/136/fopen): adding to final database dump
+0701.845 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_services.table.tmpr0.gz (141/136/fopen): adding to final database dump
+0701.849 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_services.table.gz (142/136/fopen): adding to final database dump
+0701.851 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_services_views.table.tmpr0.gz (143/136/fopen): adding to final database dump
+0701.855 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_services_views.table.gz (144/136/fopen): adding to final database dump
+0701.859 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_taxes.table.tmpr0.gz (145/136/fopen): adding to final database dump
+0701.863 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_taxes.table.gz (146/136/fopen): adding to final database dump
+0701.866 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_taxes_to_entities.table.tmpr0.gz (147/136/fopen): adding to final database dump
+0701.868 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_taxes_to_entities.table.gz (148/136/fopen): adding to final database dump
+0701.871 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_users.table.tmpr0.gz (149/136/fopen): adding to final database dump
+0701.873 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_amelia_users.table.gz (150/136/fopen): adding to final database dump
+0701.875 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_events.table.tmpr0.gz (151/136/fopen): adding to final database dump
+0701.877 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_events.table.gz (152/136/fopen): adding to final database dump
+0701.880 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_submissions.table.tmpr0.gz (153/136/fopen): adding to final database dump
+0701.884 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_submissions.table.gz (154/136/fopen): adding to final database dump
+0701.890 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (155/136/fopen): adding to final database dump
+0701.895 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_submissions_actions_log.table.gz (156/136/fopen): adding to final database dump
+0701.899 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_submissions_values.table.tmpr0.gz (157/136/fopen): adding to final database dump
+0701.902 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_e_submissions_values.table.gz (158/136/fopen): adding to final database dump
+0701.904 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_estatik_fb_fields.table.tmpr6.gz (159/136/fopen): adding to final database dump
+0701.906 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_estatik_fb_fields.table.gz (160/136/fopen): adding to final database dump
+0701.908 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_estatik_fb_sections.table.tmpr0.gz (161/136/fopen): adding to final database dump
+0701.910 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_estatik_fb_sections.table.gz (162/136/fopen): adding to final database dump
+0701.913 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_activities.table.tmpr3.gz (163/136/fopen): adding to final database dump
+0701.917 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_activities.table.gz (164/136/fopen): adding to final database dump
+0701.919 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_agent_meta.table.tmpr0.gz (165/136/fopen): adding to final database dump
+0701.922 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_agent_meta.table.gz (166/136/fopen): adding to final database dump
+0701.924 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_agents.table.tmpr2.gz (167/136/fopen): adding to final database dump
+0701.926 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_agents.table.gz (168/136/fopen): adding to final database dump
+0701.928 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_agents_services.table.tmpr0.gz (169/136/fopen): adding to final database dump
+0701.931 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_agents_services.table.gz (170/136/fopen): adding to final database dump
+0701.933 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_blocked_periods.table.tmpr0.gz (171/136/fopen): adding to final database dump
+0701.935 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_blocked_periods.table.gz (172/136/fopen): adding to final database dump
+0701.938 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_booking_meta.table.tmpr0.gz (173/136/fopen): adding to final database dump
+0701.941 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_booking_meta.table.gz (174/136/fopen): adding to final database dump
+0701.943 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bookings.table.tmpr0.gz (175/136/fopen): adding to final database dump
+0701.947 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bookings.table.gz (176/136/fopen): adding to final database dump
+0701.950 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bundle_meta.table.tmpr0.gz (177/136/fopen): adding to final database dump
+0701.952 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bundle_meta.table.gz (178/136/fopen): adding to final database dump
+0701.955 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bundles.table.tmpr0.gz (179/136/fopen): adding to final database dump
+0701.957 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bundles.table.gz (180/136/fopen): adding to final database dump
+0701.959 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bundles_services.table.tmpr0.gz (181/136/fopen): adding to final database dump
+0701.962 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_bundles_services.table.gz (182/136/fopen): adding to final database dump
+0701.965 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_cart_items.table.tmpr0.gz (183/136/fopen): adding to final database dump
+0701.968 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_cart_items.table.gz (184/136/fopen): adding to final database dump
+0701.970 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_cart_meta.table.tmpr0.gz (185/136/fopen): adding to final database dump
+0701.972 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_cart_meta.table.gz (186/136/fopen): adding to final database dump
+0701.975 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_carts.table.tmpr0.gz (187/136/fopen): adding to final database dump
+0701.977 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_carts.table.gz (188/136/fopen): adding to final database dump
+0701.979 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_custom_prices.table.tmpr0.gz (189/136/fopen): adding to final database dump
+0701.983 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_custom_prices.table.gz (190/136/fopen): adding to final database dump
+0701.985 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_customer_meta.table.tmpr0.gz (191/136/fopen): adding to final database dump
+0701.988 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_customer_meta.table.gz (192/136/fopen): adding to final database dump
+0701.990 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_customers.table.tmpr0.gz (193/136/fopen): adding to final database dump
+0701.992 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_customers.table.gz (194/136/fopen): adding to final database dump
+0701.994 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_location_categories.table.tmpr0.gz (195/136/fopen): adding to final database dump
+0701.997 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_location_categories.table.gz (196/136/fopen): adding to final database dump
+0702.000 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_locations.table.tmpr2.gz (197/136/fopen): adding to final database dump
+0702.002 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_locations.table.gz (198/136/fopen): adding to final database dump
+0702.005 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_intents.table.tmpr0.gz (199/136/fopen): adding to final database dump
+0702.017 (0) The time we have been running (702) is approaching the resumption interval (732) - increasing resumption interval to 733
+0702.023 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_intents.table.gz (200/136/fopen): adding to final database dump
+0702.026 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_invoices.table.tmpr0.gz (201/136/fopen): adding to final database dump
+0702.029 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_invoices.table.gz (202/136/fopen): adding to final database dump
+0702.032 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_items.table.tmpr0.gz (203/136/fopen): adding to final database dump
+0702.035 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_items.table.gz (204/136/fopen): adding to final database dump
+0702.037 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_meta.table.tmpr0.gz (205/136/fopen): adding to final database dump
+0702.040 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_order_meta.table.gz (206/136/fopen): adding to final database dump
+0702.043 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_orders.table.tmpr0.gz (207/136/fopen): adding to final database dump
+0702.046 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_orders.table.gz (208/136/fopen): adding to final database dump
+0702.051 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_payment_requests.table.tmpr0.gz (209/136/fopen): adding to final database dump
+0702.057 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_payment_requests.table.gz (210/136/fopen): adding to final database dump
+0702.059 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_process_jobs.table.tmpr0.gz (211/136/fopen): adding to final database dump
+0702.062 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_process_jobs.table.gz (212/136/fopen): adding to final database dump
+0702.066 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_processes.table.tmpr2.gz (213/136/fopen): adding to final database dump
+0702.068 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_processes.table.gz (214/136/fopen): adding to final database dump
+0702.070 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_recurrences.table.tmpr0.gz (215/136/fopen): adding to final database dump
+0702.073 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_recurrences.table.gz (216/136/fopen): adding to final database dump
+0702.075 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_service_categories.table.tmpr0.gz (217/136/fopen): adding to final database dump
+0702.077 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_service_categories.table.gz (218/136/fopen): adding to final database dump
+0702.080 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_service_meta.table.tmpr0.gz (219/136/fopen): adding to final database dump
+0702.083 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_service_meta.table.gz (220/136/fopen): adding to final database dump
+0702.085 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_services.table.tmpr0.gz (221/136/fopen): adding to final database dump
+0702.088 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_services.table.gz (222/136/fopen): adding to final database dump
+0702.090 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_sessions.table.tmpr0.gz (223/136/fopen): adding to final database dump
+0702.092 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_sessions.table.gz (224/136/fopen): adding to final database dump
+0702.094 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_settings.table.tmpr10.gz (225/136/fopen): adding to final database dump
+0702.097 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_settings.table.gz (226/136/fopen): adding to final database dump
+0702.100 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_step_settings.table.tmpr0.gz (227/136/fopen): adding to final database dump
+0702.103 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_step_settings.table.gz (228/136/fopen): adding to final database dump
+0702.106 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_steps.table.tmpr0.gz (229/136/fopen): adding to final database dump
+0702.108 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_steps.table.gz (230/136/fopen): adding to final database dump
+0702.110 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_transaction_intents.table.tmpr0.gz (231/136/fopen): adding to final database dump
+0702.113 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_transaction_intents.table.gz (232/136/fopen): adding to final database dump
+0702.116 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_transaction_refunds.table.tmpr0.gz (233/136/fopen): adding to final database dump
+0702.119 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_transaction_refunds.table.gz (234/136/fopen): adding to final database dump
+0702.121 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_transactions.table.tmpr0.gz (235/136/fopen): adding to final database dump
+0702.123 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_transactions.table.gz (236/136/fopen): adding to final database dump
+0702.125 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_work_periods.table.tmpr8.gz (237/136/fopen): adding to final database dump
+0702.127 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_latepoint_work_periods.table.gz (238/136/fopen): adding to final database dump
+0702.130 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_action_meta.table.tmpr79.gz (239/136/fopen): adding to final database dump
+0702.133 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_action_meta.table.gz (240/136/fopen): adding to final database dump
+0702.137 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_actions.table.tmpr5.gz (241/136/fopen): adding to final database dump
+0702.140 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_actions.table.gz (242/136/fopen): adding to final database dump
+0702.142 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_chunks.table.tmpr0.gz (243/136/fopen): adding to final database dump
+0702.144 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_chunks.table.gz (244/136/fopen): adding to final database dump
+0702.147 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_field_meta.table.tmpr261.gz (245/136/fopen): adding to final database dump
+0702.150 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_field_meta.table.gz (246/136/fopen): adding to final database dump
+0702.154 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_fields.table.tmpr5.gz (247/136/fopen): adding to final database dump
+0702.157 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_fields.table.gz (248/136/fopen): adding to final database dump
+0702.159 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_form_meta.table.tmpr99.gz (249/136/fopen): adding to final database dump
+0702.162 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_form_meta.table.gz (250/136/fopen): adding to final database dump
+0702.165 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_forms.table.tmpr2.gz (251/136/fopen): adding to final database dump
+0702.168 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_forms.table.gz (252/136/fopen): adding to final database dump
+0702.171 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_object_meta.table.tmpr0.gz (253/136/fopen): adding to final database dump
+0702.174 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_object_meta.table.gz (254/136/fopen): adding to final database dump
+0702.176 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_objects.table.tmpr0.gz (255/136/fopen): adding to final database dump
+0702.179 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_objects.table.gz (256/136/fopen): adding to final database dump
+0702.184 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_relationships.table.tmpr0.gz (257/136/fopen): adding to final database dump
+0702.187 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_relationships.table.gz (258/136/fopen): adding to final database dump
+0702.189 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_upgrades.table.tmpr2.gz (259/136/fopen): adding to final database dump
+0702.192 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_nf3_upgrades.table.gz (260/136/fopen): adding to final database dump
+0702.194 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_srfm_entries.table.tmpr0.gz (261/136/fopen): adding to final database dump
+0702.198 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_srfm_entries.table.gz (262/136/fopen): adding to final database dump
+0702.200 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_suremails_email_log.table.tmpr0.gz (263/136/fopen): adding to final database dump
+0702.203 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_suremails_email_log.table.gz (264/136/fopen): adding to final database dump
+0702.206 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_logs.table.tmpr0.gz (265/136/fopen): adding to final database dump
+0702.209 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_logs.table.gz (266/136/fopen): adding to final database dump
+0702.211 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (267/136/fopen): adding to final database dump
+0702.215 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_payment_meta.table.gz (268/136/fopen): adding to final database dump
+0702.218 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_payments.table.tmpr0.gz (269/136/fopen): adding to final database dump
+0702.221 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_payments.table.gz (270/136/fopen): adding to final database dump
+0702.223 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_tasks_meta.table.tmpr63.gz (271/136/fopen): adding to final database dump
+0702.226 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db-table-wp_wpforms_tasks_meta.table.gz (272/136/fopen): adding to final database dump
+0702.254 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz: finished writing out complete database file (2022.8 KB)
+0702.322 (0) Total database tables backed up: 136 (backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz, size: 2071487, sha1: 97b2c7a2c8b1380f763fd59fc094c4407c637820, sha256: 80ad460754c5fc45eee4f3752739dbc4eff96dc15828ab80695ea9a5a4c33b69)
+0702.335 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip: plugins: This file has already been successfully uploaded
+0702.337 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip: themes: This file has already been successfully uploaded
+0702.339 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip: uploads: This file has already been successfully uploaded
+0702.341 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip: others: This file has already been successfully uploaded
+0702.342 (0) backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0702.345 (0) Saving backup history. Total backup size: 208.2 MB
+0702.350 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0702.358 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0702.360 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca9b71c21b52d384b315ad745a77f156)
+0702.959 (0) Google Drive: quota usage: used=976.3 MB, total=102400 MB, available=101423.7 MB
+0702.962 (0) Google Drive: backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz: Attempting to upload to Google Drive (into folder id: 1rOyGi132xkS1L-a6mCv7taLpIYDXOakR)
+0705.488 (0) The time we have been running (705.5) is approaching the resumption interval (733) - increasing resumption interval to 736
+0705.493 (0) Googledrive chunked upload: 50.6 % uploaded (1048576)
+0708.756 (0) The time we have been running (708.7) is approaching the resumption interval (736) - increasing resumption interval to 739
+0708.760 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0708.771 (0) Google Drive: OK: Archive backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz uploaded in 5.81 seconds
+0708.773 (0) Recording as successfully uploaded: backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz
+0708.779 (0) Deleting local file: backup_2025-07-21-0705_noelialocal_62e470c8349c-db.gz: OK
+0708.786 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0708.789 (0) Number of backup sets in history: 2; groups (db): 1
+0708.791 (0) Examining (for databases) backup set with group_id=0, nonce=62e470c8349c, datestamp=1753081534 (Jul 21 2025 07:05:34)
+0708.794 (0) This backup set is the backup set just made, so will not be deleted.
+0708.794 (0) Examining (for databases) backup set with group_id=0, nonce=c73b0b3b8446, datestamp=1752836793 (Jul 18 2025 11:06:33)
+0708.794 (0) 1752836793: db: this set includes a database (backup_2025-07-18-1106_noelialocal_c73b0b3b8446-db.gz); db count is now 1
+0708.794 (0) 1752836793: db: over retain limit (1); will delete this database
+0712.890 (0) Google Drive: backup_2025-07-18-1106_noelialocal_c73b0b3b8446-db.gz: Deletion successful
+0712.905 (0) The time we have been running (712.9) is approaching the resumption interval (739) - increasing resumption interval to 743
+0712.911 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0712.914 (0) Number of backup sets in history: 2; groups (files): 1
+0712.917 (0) Examining (for files) backup set with nonce=62e470c8349c, datestamp=1753081534 (Jul 21 2025 07:05:34)
+0712.919 (0) This backup set is the backup set just made, so will not be deleted.
+0712.922 (0) This backup set is the backup set just made, so will not be deleted.
+0712.922 (0) This backup set is the backup set just made, so will not be deleted.
+0712.922 (0) This backup set is the backup set just made, so will not be deleted.
+0712.923 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0712.925 (0) Examining (for files) backup set with nonce=c73b0b3b8446, datestamp=1752836793 (Jul 18 2025 11:06:33)
+0712.925 (0) plugins: over retain limit (1); will delete this file entity
+0712.925 (0) themes: over retain limit (1); will delete this file entity
+0712.925 (0) uploads: over retain limit (1); will delete this file entity
+0712.925 (0) others: over retain limit (1); will delete this file entity
+0715.457 (0) Google Drive: backup_2025-07-18-1106_noelialocal_c73b0b3b8446-others.zip: Deletion successful
+0716.361 (0) Google Drive: backup_2025-07-18-1106_noelialocal_c73b0b3b8446-uploads.zip: Deletion successful
+0718.085 (0) Google Drive: backup_2025-07-18-1106_noelialocal_c73b0b3b8446-themes.zip: Deletion successful
+0718.935 (0) Google Drive: backup_2025-07-18-1106_noelialocal_c73b0b3b8446-plugins.zip: Deletion successful
+0718.953 (0) The time we have been running (718.9) is approaching the resumption interval (743) - increasing resumption interval to 749
+0718.959 (0) This backup set is now empty; will remove from history
+0718.961 (0) Deleting log file (log.c73b0b3b8446.txt)
+0718.965 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0718.977 (0) Resume backup (62e470c8349c, 0): finish run
+0718.997 (0) Decremented the semaphore (fd) by 1
+0719.002 (0) Semaphore (fd) unlocked
+0719.004 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0719.013 (0) The backup succeeded and is now complete
+0719.015 (0) Deleting zip manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-plugins.zip.list.tmp)
+0719.018 (0) Deleting zip manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-themes.zip.list.tmp)
+0719.020 (0) Deleting zip manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-uploads.zip.list.tmp)
+0719.023 (0) Deleting zip manifest (backup_2025-07-21-0705_noelialocal_62e470c8349c-others.zip.list.tmp)
+0719.026 (0) Fetching RSS news feed
+0720.306 (0) Fetched RSS news feed; result is a: SimplePie\SimplePie
+0720.506 (0) Sending email ('Archivos y base de datos (Copia de seguridad completa)') report (attachments: 0, size: 0 KB) to: noeli...
+0720.740 (0) La copia de seguridad se ha realizado correctamente y se ha completado

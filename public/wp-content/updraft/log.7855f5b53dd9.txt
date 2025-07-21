@@ -1,0 +1,7 @@
+0000.000 (0) Opened log file at time: Thu, 12 Jun 2025 07:46:21 +0000 on http://noelia.local
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.2.27 (cgi-fcgi, Windows NT DESKTOP-LUBQ3C8 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.35 (max packet size=16777216) WPLANG: es_ES Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.4M | 12M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 150918.6 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Semaphore lock (fd, wp_options) failed (line 43)
+0000.023 (0) Failed to gain semaphore lock (fd) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)
